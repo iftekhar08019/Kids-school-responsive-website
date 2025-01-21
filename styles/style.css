@@ -19,6 +19,7 @@
     max-width: 1160px;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 .links{
     list-style: none;
@@ -41,4 +42,14 @@
 .logo-container img{
     width: 100%;
     height: 100%;
+}
+.btn-nav{
+    color: white;
+    width: 177px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    background-color: rgb(254, 163, 1);
+    border-radius: 0.75rem;
+    padding: 0.63rem;
+    border: none;
 }
