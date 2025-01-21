@@ -5,26 +5,44 @@
         margin: 0;
         padding: 0;
     }
+    /* Navbar */
     .logo-container,
     .navlink-container,
     .btn-nav
     {
         display: none;
-    }
-    #mobile-logo{
-        display: block;
-    }
-    #burger{
+    }   
+    #mobile-logo, #burger{
         display: block;
     }
     .navbar{
-        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin: 0 auto;
         border-bottom: 0.5px solid rgb(254, 163, 1);
         padding: 12px 16px;
+    }
+
+    /* banner */
+    .banner{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px;
+    }
+    .content{
+        text-align: center;
+    }
+    .banner img{
+        max-width: 336.58px;
+    }
+    .btn-primary{
+        margin-top: 18px;
+        font-size: 1rem;
+        width: 35%;
     }
 
   

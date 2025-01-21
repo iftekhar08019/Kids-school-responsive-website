@@ -13,9 +13,24 @@
 .display-flex{
     display: flex;
 }
+.btn-primary{
+    font-weight: 700;
+    font-size: 1.25rem;
+    background-color: black;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    color: white;
+    width: 30%;
+    padding: 10px 15px;
+}
+.btn-primary:hover{
+    background-color: white;
+    color: #000;
+    border: 1px solid black;
+}
 
 /* Navbar */
-.navbar{
+.navbar, .banner{
     max-width: 1160px;
     justify-content: space-between;
     align-items: center;
@@ -48,12 +63,32 @@
 }
 .btn-nav{
     color: white;
-    width: 177px;
+    width: 15%;
     font-weight: 600;
     font-size: 1.25rem;
     background-color: rgb(254, 163, 1);
     border-radius: 0.75rem;
     padding: 0.63rem;
-    border: none;
+    border: 1px solid transparent;
+}
+.btn-nav:hover{
+    background-color: white;
+    color: rgb(254, 163, 1);
+    border: 1px solid rgb(254, 163, 1);
 }
 
+/* Banner Section */
+.content h2{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.content p{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+#empower{
+    color: rgb(254, 163, 1);
+}
+#vision{
+    color: rgb(1, 172, 253);
+}
