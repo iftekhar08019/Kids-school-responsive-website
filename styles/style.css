@@ -107,7 +107,6 @@
     background-image: url(../assets/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 .curriculum h3{
     font-weight: 700;
@@ -162,11 +161,10 @@
     border: 0.5px solid transparent;
     border-radius: 30px;
     color: white;
-    padding: 19px 22px;
+    padding: 18px 20px;
     font-weight: 900;
     font-size: 1.5rem;
     max-width: 60px;
     max-height: 60px;
     text-align: center;
-    margin-right: 10px;
 }
