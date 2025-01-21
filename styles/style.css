@@ -21,6 +21,9 @@
     align-items: center;
     margin: 0 auto;
 }
+#mobile-logo, #burger{
+    display: none;
+}
 .links{
     list-style: none;
     gap: 50px;
@@ -53,3 +56,4 @@
     padding: 0.63rem;
     border: none;
 }
+
