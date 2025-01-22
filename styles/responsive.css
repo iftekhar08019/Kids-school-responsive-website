@@ -67,5 +67,32 @@
     display: none;
 }
 
-  
+/* story section */
+.mobile-hide{
+    display: none;
+}
+
+.story-card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, auto);
+    width: 90%;
+    margin: 60px auto 20px auto;
+}
+.btn-position{
+    position: relative;
+    top: -1.5rem;
+    left: 2rem;
+}
+.button2{
+    font-size: 0.5rem;
+}
+.button3{
+    font-size: 0.5rem;
+}
+.story-card h4{
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0 0 20px 22px;
+}
 }
