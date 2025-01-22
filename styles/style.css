@@ -176,6 +176,7 @@ header{
 /* story section */
 .stories{
     background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    border: none;
 }
 .story-card-container{
     display: grid;
@@ -247,4 +248,62 @@ header{
     background-color: white;
     overflow: hidden;
     text-align: start;
+}
+
+/* Footer */
+footer{
+    background-color: rgb(1, 172, 253);
+    color: rgb(255, 255, 255);
+}
+.footer-container{
+    padding: 8.5% 16% 12% 9.7%;
+    justify-content: space-between;
+    
+    gap: 10%;
+}
+
+.socials-item{
+    gap: 10px;
+}
+.logo-name{
+    align-items: center;
+    
+}
+.logo-name h3{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.logo-name-content p{
+    font-weight: 500;
+    font-size: 1.25rem;
+    max-width: 400px;
+}
+.logo-footer img{
+    min-width:100%;
+    min-height: 100%;
+    object-fit: contain;
+}
+.footer-links h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.footer-links-item{
+    list-style-type: none;
+    margin-bottom: 25px;
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+
+
+.footer-links-item a{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.socials h4{
+    font-size: 1.5rem;
+    font-weight: 700;
 }
