@@ -60,6 +60,11 @@
 .curriculum{
     border: none;
 }
+.curriculum h3{
+    font-weight: 700;
+    font-size: 2.875rem;
+    margin-top: 45px;
+}
 .txt-class p{
     margin-bottom: 25px;
 }
