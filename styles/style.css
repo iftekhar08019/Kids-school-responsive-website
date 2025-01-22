@@ -28,6 +28,16 @@
     color: #000;
     border: 1px solid black;
 }
+.marquee-container {
+    background-color: white; 
+    color: rgb(1, 172, 253); 
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgb(234, 202, 147);
+    text-align: center;
+  }
 
 /* Navbar */
 .navbar, .banner{
